@@ -1,0 +1,32 @@
+body {
+    background-color: #3da368;
+}
+
+.sections{
+    background-color: #3da368;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections .header,
+.sections .info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.sections .header .links{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.sections .info .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: start;
+}
+
